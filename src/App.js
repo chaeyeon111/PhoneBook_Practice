@@ -1,27 +1,30 @@
-import React, {Component} from 'react';
-
-import PhoneForm from "./Components/PhoneForm";
-
-
+import React, { Component } from 'react';
+import PhoneForm from './Components/PhoneForm';
+import PhoneInfoList from './Components/PhoneInfoList';
 
 class App extends Component {
 
+    id = 0;
+
     state = {
-        information : [],
+        information: [],
     }
 
     handleCreate = (data) => {
-        console.log(data);
+        const { information } = this.state;
+        this.setState({
+            information: information.concat({
+                ...data,
+                id: this.id++,
+            })
+        });
     }
-
-
-
-
 
     render() {
         return (
             <div>
-              <PhoneForm onCreate ={this.handleCreate}/>
+                <PhoneForm onCreate={this.handleCreate}/>
+                <PhoneInfoList data={this.state.information}/>
             </div>
         );
     }
