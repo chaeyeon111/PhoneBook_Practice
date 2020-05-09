@@ -16,9 +16,9 @@ III. React Practice
 
 3. Array(배열)
 <br>3.1 Inserting data into Array
-3.2 Rendering an Array
-3.3 Removing data from an array
-3.4 Modifying data in an array
+<br>3.2 Rendering an Array
+<br>3.3 Removing data from an array
+<br>3.4 Modifying data in an array
 
 4. Optimization(최적화)
 
