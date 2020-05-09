@@ -15,7 +15,7 @@ III. React Practice
 2.1 shouldComponentUpdate
 
 3. Array(배열)
-3.1 Inserting data into Array
+<br>3.1 Inserting data into Array
 3.2 Rendering an Array
 3.3 Removing data from an array
 3.4 Modifying data in an array
