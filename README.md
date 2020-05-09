@@ -1,10 +1,10 @@
 # About this Project
 
-Project Name: Phonebook
+I. Project Name: Phonebook
 
-Purpose: To practice React
+II. Purpose: To practice React
 
-React Practice
+III. React Practice
 
 1. Props & States
 
@@ -20,6 +20,8 @@ React Practice
 4. Optimization(최적화)
 
 5. Direct access to DOM via Ref
+
+--------------------------------------------------------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
