@@ -12,7 +12,7 @@ III. React Practice
 1. Props & States
 
 2. LifeCycle API
-2.1 shouldComponentUpdate
+<br>2.1 shouldComponentUpdate
 
 3. Array(배열)
 <br>3.1 Inserting data into Array
